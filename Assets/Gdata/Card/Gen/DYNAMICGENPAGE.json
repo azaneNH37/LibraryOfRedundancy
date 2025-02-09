@@ -1,0 +1,131 @@
+{
+    "P0001": {
+        "cardName": "剑雨凋",
+        "cardQuality": "blue",
+        "mana": 4,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "maxDice": 19,
+                    "minDice": 14,
+                    "desq": {
+                        "effect": "StaggerDamage",
+                        "count": 2,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "Hit",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "None",
+                "effect": "None",
+                "count": 0,
+                "buffs": [],
+                "counts": [],
+                "isNext": true
+            }
+        }
+    },
+    "P0002": {
+        "cardName": "闪避强击卡",
+        "cardQuality": "blue",
+        "mana": 4,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Evade",
+                    "maxDice": 12,
+                    "minDice": 6,
+                    "desq": {
+                        "effect": "GetBuffs",
+                        "count": 0,
+                        "buffs": [
+                            "Charge"
+                        ],
+                        "counts": [
+                            2
+                        ],
+                        "condition": "Win",
+                        "isNext": false
+                    },
+                    "isCounter": false
+                },
+                {
+                    "diceType": "Blunt",
+                    "maxDice": 20,
+                    "minDice": 10,
+                    "desq": {
+                        "effect": "None",
+                        "count": 0,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "None",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "None",
+                "effect": "None",
+                "count": 0,
+                "buffs": [],
+                "counts": [],
+                "isNext": true
+            }
+        }
+    },
+    "P0003": {
+        "cardName": "劲点斩",
+        "cardQuality": "blue",
+        "mana": 2,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "maxDice": 10,
+                    "minDice": 7,
+                    "desq": {
+                        "effect": "None",
+                        "count": 0,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "None",
+                        "isNext": false
+                    },
+                    "isCounter": false
+                },
+                {
+                    "diceType": "Pierce",
+                    "maxDice": 8,
+                    "minDice": 5,
+                    "desq": {
+                        "effect": "None",
+                        "count": 0,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "None",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "Use",
+                "effect": "GetBuffs",
+                "count": 0,
+                "buffs": [
+                    "Charge"
+                ],
+                "counts": [
+                    1
+                ],
+                "isNext": false
+            }
+        }
+    }
+}
