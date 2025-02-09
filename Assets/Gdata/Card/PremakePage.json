@@ -1,0 +1,1810 @@
+{
+    "P0001": {
+        "cardName": "使用示范",
+        "mana": 0,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Smoke"
+                    ],
+                    [
+                        3
+                    ],
+                    true
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 2,
+                    "maxDice": 6,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 2,
+                    "maxDice": 3,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0002": {
+        "cardName": "烟锤猛击",
+        "mana": 0,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Smoke"
+                    ],
+                    [
+                        3
+                    ],
+                    true
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 5,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Smoke"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0003": {
+        "cardName": "烟锤袭击",
+        "mana": 1,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "SmokeEnoughPower",
+                "count": 1,
+                "para": [
+                    9,
+                    2
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Evade",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 6,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Smoke"
+                            ],
+                            [
+                                2
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0004": {
+        "cardName": "烟锤冲击",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Smoke"
+                    ],
+                    [
+                        3
+                    ],
+                    true
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Smoke"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Smoke"
+                            ],
+                            [
+                                2
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0005": {
+        "cardName": "浓烟喷射",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Smoke"
+                    ],
+                    [
+                        8
+                    ],
+                    true
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 7,
+                    "maxDice": 12,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "SmokeEnoughExertBuffs",
+                        "count": 1,
+                        "para": [
+                            5,
+                            [
+                                "Paralysis"
+                            ],
+                            [
+                                5
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0006": {
+        "cardName": "长驱直入",
+        "mana": 0,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseLight",
+                "count": 1,
+                "para": [
+                    1
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 2,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 1,
+                    "maxDice": 2,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0007": {
+        "cardName": "一决雌雄",
+        "mana": 1,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetGreenCoin",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 4,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0008": {
+        "cardName": "剑之所向",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "EmotionLevelDecost",
+                "count": 1,
+                "para": [
+                    3,
+                    1
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                1
+                            ],
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0009": {
+        "cardName": "慷慨激昂",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "EmotionPower",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 5,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": true,
+                    "desq": {
+                        "condition": "None"
+                    }
+                }
+            ]
+        }
+    },
+    "P0010": {
+        "cardName": "燎原烈火",
+        "mana": 4,
+        "pageType": "Individual",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 8,
+                    "maxDice": 20,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "MassHitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                3
+                            ],
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0011": {
+        "cardName": "神龍抬首",
+        "mana": 1,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 5,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitPage",
+                        "count": 1,
+                        "para": [
+                            1
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0012": {
+        "cardName": "碧血丹心",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetGreenCoin",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 4,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 6,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0013": {
+        "cardName": "铁山靠",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 5,
+                    "maxDice": 6,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 8,
+                    "maxDice": 21,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertEmotionBuff",
+                        "count": 1,
+                        "para": [
+                            "Burn",
+                            false
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": true,
+                    "desq": {
+                        "condition": "None"
+                    }
+                }
+            ]
+        }
+    },
+    "P0014": {
+        "cardName": "破竹之势",
+        "mana": 1,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "RoundAttackDamageBuff",
+                "count": 1,
+                "para": [
+                    1
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "ReduceDefensePower",
+                        "count": 1,
+                        "para": [
+                            2
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                1
+                            ],
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0015": {
+        "cardName": "刀光剑影",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetGreenCoin",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Evade",
+                    "minDice": 2,
+                    "maxDice": 6,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitGetBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Haste"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitGetBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Haste"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0016": {
+        "cardName": "牢不可破",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UsePage",
+                "count": 1,
+                "para": [
+                    1
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Evade",
+                    "minDice": 3,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 8,
+                    "maxDice": 17,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "WinPage",
+                        "count": 1,
+                        "para": [
+                            1
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 6,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Burn"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0017": {
+        "cardName": "撕咬鲜草",
+        "mana": 0,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "MyoGrass",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 4,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0018": {
+        "cardName": "火力集中",
+        "mana": 2,
+        "pageType": "Ranged",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "ChargePower",
+                "count": 1,
+                "para": [
+                    5,
+                    1
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 6,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 5,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0019": {
+        "cardName": "快速压制",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Charge"
+                    ],
+                    [
+                        5
+                    ],
+                    false
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Evade",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                2
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0020": {
+        "cardName": "心神凝聚",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Blue",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "UseGetBuffs",
+                "count": 1,
+                "para": [
+                    [
+                        "Charge"
+                    ],
+                    [
+                        8
+                    ],
+                    false
+                ]
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 7,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 6,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0021": {
+        "cardName": "狂暴血刃",
+        "mana": 5,
+        "pageType": "Individual",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 6,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitDamage",
+                        "count": 1,
+                        "para": [
+                            15
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0022": {
+        "cardName": "单点射击",
+        "mana": 3,
+        "pageType": "Ranged",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "MyoPointShoot",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 8,
+                    "maxDice": 21,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0023": {
+        "cardName": "巨拳轰击",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 9,
+                    "maxDice": 17,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitDamage",
+                        "count": 1,
+                        "para": [
+                            5
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 5,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 7,
+                    "isCounter": true,
+                    "desq": {
+                        "condition": "None"
+                    }
+                }
+            ]
+        }
+    },
+    "P0024": {
+        "cardName": "巨掌拍打",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 6,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 6,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Paralysis"
+                            ],
+                            [
+                                2
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Feeble"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": true,
+                    "desq": {
+                        "condition": "None"
+                    }
+                }
+            ]
+        }
+    },
+    "P0025": {
+        "cardName": "乱拳痛殴",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitDamage",
+                        "count": 1,
+                        "para": [
+                            3
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 4,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitDamage",
+                        "count": 1,
+                        "para": [
+                            3
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitDamage",
+                        "count": 1,
+                        "para": [
+                            3
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0026": {
+        "cardName": "不祥烙印",
+        "mana": 3,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 4,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 6,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Erosion"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Block",
+                    "minDice": 5,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0027": {
+        "cardName": "封锁目标",
+        "mana": 4,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 7,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 12,
+                    "maxDice": 19,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "WinBreakNextDice",
+                        "count": 1,
+                        "para": []
+                    }
+                }
+            ]
+        }
+    },
+    "P0028": {
+        "cardName": "大刀纵劈",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "RedMistPage",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 6,
+                    "maxDice": 10,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 6,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0029": {
+        "cardName": "大刀直刺",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "RedMistPage",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Pierce",
+                    "minDice": 3,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                1
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0030": {
+        "cardName": "大刀横斩",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Green",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "RedMistLight",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Blunt",
+                    "minDice": 5,
+                    "maxDice": 9,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                },
+                {
+                    "diceType": "Blunt",
+                    "minDice": 5,
+                    "maxDice": 8,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0031": {
+        "cardName": "屏息凝神",
+        "mana": 2,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Purple",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Block",
+                    "minDice": 8,
+                    "maxDice": 12,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "DiceBuff",
+                        "count": 1,
+                        "para": []
+                    }
+                },
+                {
+                    "diceType": "Slash",
+                    "minDice": 5,
+                    "maxDice": 7,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitGetBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Strength"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0032": {
+        "cardName": "血雾弥漫",
+        "mana": 5,
+        "pageType": "Melee",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "RedMistBreakPage",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 20,
+                    "maxDice": 39,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "HitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Bleed"
+                            ],
+                            [
+                                3
+                            ],
+                            true
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "P0033": {
+        "cardName": "扭曲之刃",
+        "mana": 7,
+        "pageType": "Summation",
+        "cardImg": "testcard.png",
+        "cardQuality": "Gold",
+        "pageDesq": {
+            "overall_desq": {
+                "condition": "Special",
+                "effect": "PageBuff",
+                "count": 1,
+                "para": []
+            },
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "minDice": 18,
+                    "maxDice": 33,
+                    "isCounter": false,
+                    "desq": {
+                        "condition": "Special",
+                        "effect": "MassHitExertBuffs",
+                        "count": 1,
+                        "para": [
+                            [
+                                "Erosion"
+                            ],
+                            [
+                                2
+                            ],
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
